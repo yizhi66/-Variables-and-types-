@@ -15,7 +15,14 @@ public class Main{
          * 
          * 
         */
-        
+        MusicBox anotherMbox = new MusicBox("A12BC34", 'N', "Sunshine", "Bright", 
+        "The road ahead", "Pop", "Star Music", "Harmony Magic");
+
+        System.out.println("Now playing another song");
+        anotherMbox.playSong(anotherMbox.getSongID(), anotherMbox.getPremiumSong(), 1);
+
+
+
 
     }
 }
